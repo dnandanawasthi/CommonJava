@@ -5,8 +5,7 @@ public class PatternMatcher {
 	public boolean expressionMatches(final String text, final String pattern) {
 		return text.matches(pattern.replace("?", ".?").replace("*", ".*?"));
 	}
-	
-	
+
 	// Pair class "PatternMatcherTest" is available under src/test/java/com.bluetree.assesment
 }
 
