@@ -1,4 +1,4 @@
-package com.assesment;
+package com.assesment.string_sample;
 
 public class PatternMatcher {
 
